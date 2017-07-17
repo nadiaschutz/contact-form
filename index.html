@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Conact form that saves data in local store. Form created with js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <form id="cf" method="post" action="">
+        <h1>Please Contact Us</h1>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="stored">
+            <label for="mail">Email</label>
+            <input type="email" id="email" name="email" class="stored">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="stored"></textarea>
+
+        </fieldset>
+        <div class="container">
+            <div class="btn">
+                <button type="submit">Send</button>
+
+            </div>
+            <div class="btn">
+
+                <input id="clear" type="reset">
+            </div>
+        </div>
+
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
